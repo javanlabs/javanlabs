@@ -1,0 +1,201 @@
+#image {
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    padding: 0px;     
+}
+
+li.font {
+    font-family: "Abel";
+    font-size: 20px;
+}
+
+.font{
+    font-family: "Abel";
+}
+
+p {
+    font-family: "Ubuntu";
+    margin: 10px;
+    text-align: center;
+}
+
+p.button {
+    font-size: 28px;
+}
+
+.navbar-right {
+    margin-top: 0px;
+}
+
+a.menu:hover {
+    color: white;
+}
+
+a.menu:active {
+    color: white;
+}
+
+a.menu {
+    color: #3c3c3c;
+}
+
+nav {
+    background-color: white;
+}
+
+.col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.col-lg-3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.divider {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+hr.light {
+    max-width: 80px;
+    border-color: #F35F5D;
+    border-width: 5px;
+    margin-bottom: 30px;
+}
+
+.lead {
+    margin-bottom: 50px;
+}
+
+.bg-purple {
+    padding: 40px 0;
+    background-color: #9B58B5;
+    color: #fff;
+    margin: 50px 0;
+}
+
+a.workbtn, a.workbtn:link, a.workbtn:visited {
+    display: inline-block;
+    color: #fff;
+    background-color: #9B58B5;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+a.workbtn:hover, a.workbtn:active {
+    background-color: #fff;
+    color: #9B58B5;
+}
+
+.row {
+    text-align: center;
+}
+
+p.jab {
+    color: #F35F5D;
+}
+
+
+.bg-cta {
+    padding: 60px 0;
+    background-color: #34495E;
+    color: #fff;
+    margin-top: 50px;
+}
+
+a.gitbtn, a.gitbtn:link, a.gitbtn:visited {
+    display: inline-block;
+    color: #fff;
+    background-color: #E84C3D;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #34495E;
+    padding: 10px 40px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+a.gitbtn:hover, a.gitbtn:active {
+    background-color: #fff;
+    color: #E84C3D;
+    border: 1px solid #E84C3D;
+}
+
+.bg-foot {
+    padding: 30px 0;
+    background-color: #2D3E50;
+    color: #fff;
+}
+
+.listfoot {
+    list-style: none;
+    text-align: left;
+    font-family: "Ubuntu";
+}
+
+a.foot {
+    color: #fff;
+}
+
+.logo {
+    padding-top: 50px;
+    width: 300px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+#work {
+    width: 250px;
+    margin-left: 100px;
+}
+
+.foot1, .foot2 {
+    color: white;
+    font-size: 18px;
+}
+
+a.foot1:hover {
+    text-decoration: none;
+    color: #9B58B5;
+}
+
+a.foot2:hover {
+    text-decoration: none;
+    color: #E84C3D;
+}
+
+#footer {
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.tittle {
+    margin-top: 50px;
+}
+
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
