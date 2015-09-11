@@ -6,55 +6,57 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <title>Javanlabs</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
         <link rel="stylesheet" href="style.css" type="text/css">
 
-        <title>Javanlabs</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px; background-color: #fff;">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#">
+                    <a href="index.html">
                         <img class="navbar-brand" alt="Brand" src="images/javan_logo.png">
                     </a>
                 </div>
-                <div class="navbar-collapse collapse in" aria-expanded="true">
-                    <ul id="navbar" class="nav navbar-nav navbar-right">
-                        <li class="active font"><a class="menu" href="#company">COMPANY</a></li>
-                        <li class="font"><a class="menu" href="#works">WORKS</a></li>
-                        <li class="font"><a class="menu" href="#contact">CONTACT</a></li>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active font"><a class="menu" href="index.html">COMPANY</a></li>
+                        <li class="font"><a class="menu" href="works.html">WORKS</a></li>
+                        <li class="font"><a class="menu" href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div>
-            <div class="container"></div>
-            <p>WE ARE JAVANLABS</p>
             <img class="img-responsive" src="images/header_pic.jpg" alt="header">
+            <h1 class="font"><span>WE ARE JAVANLABS</span></h1>
+            <br>
+            <p><span>EXPLORING IDEAS, DEFINE PROBLEM,RESEARCH SOLUTION, DELIVER THEM TO YOU</span></p>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
+            <div id="services" class="row">
+                <div class="col-sm-4">
                     <img alt="web" src="images/web_app.png">
                     <h2 class="font">Web Application</h2>
                     <p>A web application is an application that is accessed by users over a network such as the Internet or an intranet.The term may also mean a computer software application.</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <img alt="web" src="images/mobile_app.png">
                     <h2 class="font">Mobile Application</h2>
                     <p>Mobile apps, it is a term used to describe Internet applications that run on smartphones and other mobile devices. Mobile applications usually help users...</p>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-sm-4">
                     <img alt="web" src="images/our_support.png">
                     <h2 class="font">Our Support</h2>
                     <p>With the support of experts, we established a system that not only complies with the culture of each company / institution but also userfriendly.</p>
@@ -67,19 +69,19 @@ and open the template in the editor.
                 <p class="lead">We have a mission to deliver cutting edge technology solution to solve daily life problems.
                     With erb and mobile apps that we developed, human will get easier, happier, more efficient life.</p>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-sm-3">
                         <img alt="search" src="images/looking_problem.png">
                         <p>Looking for problem around</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-3">
                         <img alt="prototype" src="images/create_prototype.png">
                         <p>Create prototype of the solution</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-3">
                         <img alt="market" src="images/test_market.png">
                         <p>Test to the market</p>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-sm-3">
                         <img alt="like" src="images/like.png">
                         <p>If market (you) like it, we continue to develop the final version and deliver it to you</p>
                     </div>
@@ -91,14 +93,14 @@ and open the template in the editor.
                 <hr class="light">
                 <p class="lead">Explore. Define. Research. Deliver. We made great ideas into reality products.</p>
                 <div class="row">
-                    <div class="col-lg-4">
-                        <a href="#"><img alt="ngomik" src="images/ngomik_pic.png"></a>
+                    <div class="col-sm-4">
+                        <a href="view project.html"><img alt="ngomik" src="images/ngomik_pic.png"></a>
                     </div>
-                    <div class="col-lg-4">
-                        <a href="#"><img alt="hartaku" src="images/hartaku_pic.png"></a>
+                    <div class="col-sm-4">
+                        <a href="view project.html"><img alt="hartaku" src="images/hartaku_pic.png"></a>
                     </div>
-                    <div class="col-lg-4">
-                        <a href="#"><img alt="ngasong" src="images/ngasong_pic.png"></a>
+                    <div class="col-sm-4">
+                        <a href="view project.html"><img alt="ngasong" src="images/ngasong_pic.png"></a>
                     </div>
                 </div>
             </div>
@@ -106,13 +108,13 @@ and open the template in the editor.
         <div class="bg-purple">
             <div class="container text-center">
                 <p class="button">We`re Just Getting Started
-                    <a class="workbtn" href="#">See All Works</a>
+                    <a class="workbtn" href="works.html">See All Works</a>
                 </p>
             </div>
         </div>
         <div class="container">
             <div>
-                <h1 class="font">Who We Are</h1>
+                <h1 id="whoweare" class="font">Who We Are</h1>
                 <hr class="light">
                 <p class="lead">
                     JavanLabs is a division of Javan IT Services that focus on research and product development.<br>
@@ -123,10 +125,10 @@ and open the template in the editor.
                 </p>
             </div>
             <div>
-                <h1 class="font">Our Team</h1>
+                <h1 id="ourteam" class="font">Our Team</h1>
                 <hr class="light">
             </div>
-            <div class="row">
+            <div class="row" id="team">
                 <div class="col-lg-offset-1"></div>
                 <div class="col-lg-offset-1 col-lg-2">
                     <img class="img-circle" src="images/wisnu.jpg" alt="wisnu" width="140" height="140">
@@ -158,40 +160,40 @@ and open the template in the editor.
         <div class="bg-cta">
             <div class="container text-center">
                 <p class="button">Have Some Great Ideas?? 
-                    <a class="gitbtn" href="#">Get In Touch</a>
+                    <a class="gitbtn" href="contact.html">Get In Touch</a>
                 </p>
             </div>
         </div>
-        <div>
-            <div class="bg-foot">
-                <div class="container">
-                    <div class="col-lg-4 logo">
-                        <img class="img-responsive" src="images/logo_foot.png" alt="javan logo">
-                    </div>
-                    <div id="work" class="col-lg-4">
-                        <ul class="listfoot">
-                            <li class="font"><h3 style="color: #9B58B5;font-size: 30px;">Our Work</h3></li>
-                            <li><a class="foot1" href="#ngomik">Ngomik</a></li>
-                            <li><a class="foot1" href="#hartaku">Hartaku</a></li>
-                            <li><a class="foot1" href="#ngasong">Ngasong</a></li>
-                            <li><a class="foot1" href="#tafsirq">TafsirQ</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4">
-                        <ul class="listfoot">
-                            <li class="font"><h3 style="color: #E84C3D;font-size: 30px;">Company</h3></li>
-                            <li><a class="foot2" href="#whoweare">Who We Are</a></li>
-                            <li><a class="foot2" href="#services">Services</a></li>
-                            <li><a class="foot2" href="#team">Team</a></li>
-                        </ul>
-                    </div>
+        <div class="bg-foot">
+            <div class="container">
+                <div class="col-sm-4">
+                    <a href="#">   
+                        <img class="img-responsive" src="images/logo_foot.png" alt="javan_logo">
+                    </a>
                 </div>
-                <div class="container">
-                    <img class="img-responsive" src="images/line_foot_color.png" alt="line color">
+                <div id="work" class="col-sm-4">
+                    <ul class="listfoot">
+                        <li class="font"><h3 style="color: #9B58B5;font-size: 30px;">Our Work</h3></li>
+                        <li><a class="foot1" href="view project.html">Ngomik</a></li>
+                        <li><a class="foot1" href="view project.html">Hartaku</a></li>
+                        <li><a class="foot1" href="view project.html">Ngasong</a></li>
+                        <li><a class="foot1" href="view project.html">TafsirQ</a></li>
+                    </ul>
                 </div>
-                <div class="text-center">
-                    <p id="footer">© 2014 JavanLabs. All rights resevered.</p>
+                <div class="col-sm-4">
+                    <ul class="listfoot">
+                        <li class="font"><h3 style="color: #E84C3D;font-size: 30px;">Company</h3></li>
+                        <li><a class="foot2" href="#whoweare">Who We Are</a></li>
+                        <li><a class="foot2" href="#services">Services</a></li>
+                        <li><a class="foot2" href="#ourteam">Team</a></li>
+                    </ul>
                 </div>
+            </div>
+            <div class="container">
+                <img class="img-responsive" src="images/line_foot_color.png" alt="line color">
+            </div>
+            <div class="container text-center">
+                <p id="footer">© 2014 JavanLabs. All rights resevered.</p>
             </div>
         </div>
     </body>
